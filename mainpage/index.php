@@ -503,7 +503,7 @@ session_start();
                             <p> 
                                 <?php
                                // include 'function.php';
-                                ini_set('display_errors', 1);
+                                ini_set('display_errors', 0);
                                    $text=$_POST['editor1'];
                                    
                                    
@@ -534,8 +534,8 @@ session_start();
                                    
                                 ?>
                             </p>
-                            <p>
-                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                            <!-- <p>
+                                <strong>Want these icons in this portfolio item sample?</strong></p> -->
                             <ul class="list-inline">
                                 <li>Date: July 2014</li>
                                 <li>Client: Round Icons</li>

@@ -25,14 +25,14 @@
                 echo "entrer des informations valide !";
             }
         }*/
-
+        ini_set('display_errors', 0);
 //login section 
  if($_SERVER['REQUEST_METHOD'] == "POST")
         {
             //something was posted
             $email=$_POST['email'] ;
             $password=$_POST['password'] ;
-            print'test';
+           // print'test';
             if(!empty($email) && !empty($password))
             {
               
@@ -53,11 +53,11 @@
                     }
                 }   
             }
-            echo "verifier email ou mot de passe";
+            echo "<script>alert('verifier email ou mot de passe');</script>";
             }
             else
             {
-                echo "entrer des informations valide !";
+               // echo "entrer des informations valide !";
             }
         } 
         //signup
@@ -85,7 +85,7 @@
             }
             else
             {
-                echo "entrer des informations valide !";
+               // echo "<script>alert('entrer des informations valide !');</script>";
             }
 
         ?>
